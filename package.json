@@ -1,0 +1,26 @@
+{
+  "name": "html2img",
+  "version": "1.0.0",
+  "description": "based on puppeteer gen img",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "repository": "git+https://github.com/jiwenjiang/html2img.git",
+  "keywords": [
+    "puppeteer",
+    "html2img"
+  ],
+  "author": "jiwenjiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiwenjiang/html2img/issues"
+  },
+  "homepage": "https://github.com/jiwenjiang/html2img#readme",
+  "dependencies": {
+    "puppeteer": "^19.2.2",
+    "config": "^3.3.1",
+    "express": "^4.17.1"
+  }
+}

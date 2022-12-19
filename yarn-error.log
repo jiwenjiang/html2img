@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/jiwenjiang/.yarn/bin:/Users/jiwenjiang/.config/yarn/global/node_modules/.bin:/Users/jiwenjiang/.yarn/bin:/Users/jiwenjiang/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/jiwenjiang/Library/Caches/Yarn/v6/npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity/node_modules/ms/readme.md' -> '/Users/jiwenjiang/work/project/html2img/node_modules/agent-base/node_modules/ms/readme.md'
+
+npm manifest: 
+  {
+    "name": "html2img",
+    "version": "1.0.0",
+    "description": "based on puppeteer gen img",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "serve": "node index.js"
+    },
+    "repository": "git+https://github.com/jiwenjiang/html2img.git",
+    "keywords": [
+      "puppeteer",
+      "html2img"
+    ],
+    "author": "jiwenjiang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jiwenjiang/html2img/issues"
+    },
+    "homepage": "https://github.com/jiwenjiang/html2img#readme",
+    "dependencies": {
+      "puppeteer": "^19.2.2",
+      "config": "^3.3.1",
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
